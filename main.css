@@ -1,8 +1,48 @@
-
-*{
-    font-family: "Poppins", sans-serif;
+@font-face {
+    font-family: 'brandlarge';
+    src: url(fonts/large/brand.ttf);
 }
-
+@font-face {
+    font-family: 'brandregular';
+    src: url(fonts/regular/brand.ttf);
+}
+.pre-title{
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        color: #af6900;
+        padding-inline-start: 50px;
+}
+.hrbutton{
+        border-color: #cc85199e;
+        margin-inline-end: 21rem;
+        margin-block-start: 3rem;
+    }
+    .hrbuttonbottom{
+        border-color: #cc85199e;
+        margin-inline-end: 21rem;
+    }
+.title{
+    color: #482817;
+    font-family:'brandlarge', sans-serif;
+    font-size: 80px;
+    margin: 0%;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.button{
+    font-size: 18px;
+    font-weight: bold;
+    margin-inline-start: 4rem;
+}
+.descriptcardwine{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #af6900; ;
+}
 .menu{
     background-color: #f5ebda;
     color: #623d2a;
@@ -24,7 +64,7 @@ nav{
     text-decoration: none;
     color: #623d2a;
 }
-.top{
+div.top{
     display: flex;
     width: 100%;
     gap: 65px;
@@ -32,4 +72,188 @@ nav{
 }
 .figura{
     width: 80%;
+}
+.description{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 2rem 0px 2rem 0px;
+}
+hr{
+    border-color: #d1b991;
+}
+.description img{
+    width: 18%;
+}
+.section-banner{
+    display: flex;
+}
+.section-banner div{
+    width: 50%;
+}
+.image-section{
+    width: 85%;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+button{
+background-color: #b06d09dd;
+color: white;
+text-decoration: none;
+border-color:#b06d09dd; 
+border-radius: 3px;
+border-width: 0px;
+padding: 10px;
+}
+button :hover{
+background-color: #af6900;
+color: #482817;
+text-decoration: dotted;
+}
+.description1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 2rem 0px 2rem 0px;
+}
+.description1 img{
+    width: 15%;
+    padding: 10px 25px 10px 25px;
+}
+.text{
+    color: #87533acb;
+    text-align: center;
+}
+.topic{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+    padding-block-start: 3rem;
+    margin-bottom: 85px;
+}
+
+.section-cards{
+    display: flex;
+}
+.card{
+    position: absolute;
+    display: flex;
+    max-width: 30%;
+    width: 100%;
+    height: 35%;
+    background-color: #f5ebda;
+    border-radius: 0.75rem;
+}
+
+.card img{
+    position: absolute;
+    width: 18%;
+    left: 5%;
+    bottom: -10%;    
+}
+
+.bodycard{
+    padding-left: 6rem;
+    width: 100%;
+}
+.bodycard .pre-title{
+    font-style: italic;
+    font-size: 15px;
+}
+.bodycard p{
+    font-family: "Libre Baskerville", serif;
+    color: #482817;
+    font-size: 21px;
+    margin-bottom: 0;
+    align-content: normal;
+    padding-inline-start: 43px;
+}
+.bodycard div p {
+    font-style: italic;
+    font-size: 13px;
+    columns: #9e845c;
+}
+.bodycard div span {
+    color: #482817;
+    font-size: 30px;
+    padding-inline-start: 37px;
+}
+.card-icon{
+    display: flex;
+}
+.card-icon img{
+    position: static;
+    width: 40px;
+    height: 40px;
+}
+.section-cards1{
+display: flex;
+justify-content: space-around;
+}
+.section-cards2{
+    display: flex;
+    justify-content: flex-end;
+}
+.topic1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block-start: 20rem;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 26px;
+    grid-row-gap: 26px;
+    margin-top: 26px;
+
+}
+.photos img{
+    width: 365px;
+}
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.photo img {
+    width: 95%;
+    margin-top: 8rem;
+}
+.topic2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+.table{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+table{
+    margin-top: 3rem;
+    width: 80%;
+}
+td{
+    border: solid 1px #d1b991;
+}
+td img {
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-color: #f5ebda;
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+footer img{
+    width: 360px;
+    padding: 6rem;
 }
